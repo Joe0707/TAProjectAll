@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/3_BurnFlag/Scenes/BurnFlag.unity
+  isLoaded: 1
+  isActive: 1
