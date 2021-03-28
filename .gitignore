@@ -30,13 +30,7 @@ sysinfo.txt
 
 # Builds
 *.apk
-*.unitypackage
 .DS_Store
 *.iml
 ~$*
-LRSBNGame/.vscode/launch.json
-LRSBNGame/Assets/VSCode/Plugins/Editor.meta
-LRSBNGame/Assets/VSCode/Plugins.meta
-LRSBNGame/Assets/VSCode.meta
-LRSBNGame/Assets/Editor/WSHGameObjectActive.cs.meta
-LRSBNGame/Assets/Editor/WSHGameObjectActive.cs
+
