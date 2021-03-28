@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/CS07.unity
+- path: Assets/Scene/CS08.unity
   isLoaded: 1
   isActive: 1

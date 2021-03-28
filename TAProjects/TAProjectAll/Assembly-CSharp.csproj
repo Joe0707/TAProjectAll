@@ -71,6 +71,8 @@
      <None Include="Assets\PostProcessing\Shaders\Builtins\Lut3DBaker.compute" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\Dithering.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Colors.hlsl" />
+     <None Include="Assets\CS08\NyxIBL.shader" />
+     <None Include="Assets\CS08\Nyx_Hair.shader" />
      <None Include="Assets\PostProcessing\Shaders\API\Vulkan.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\GrainBaker.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\ExposureHistogram.hlsl" />
@@ -78,6 +80,7 @@
      <None Include="Assets\CS07\Crystal.shader" />
      <None Include="Assets\PostProcessing\Shaders\API\D3D12.hlsl" />
      <None Include="Assets\CS07\Diamond.shader" />
+     <None Include="Assets\CS08\Nyx_Body.shader" />
      <None Include="Assets\PostProcessing\Shaders\API\OpenGL.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\MultiScaleVODownsample2.compute" />
@@ -96,6 +99,7 @@
      <None Include="Assets\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\Texture2DLerp.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\DeferredFog.shader" />
+     <None Include="Assets\CS08\Nyx_Emiss.shader" />
      <None Include="Assets\CS07\Gem.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\CopyStdFromTexArray.shader" />
      <None Include="Assets\PostProcessing\Shaders\API\D3D9.hlsl" />
@@ -112,6 +116,7 @@
      <None Include="Assets\PostProcessing\Shaders\API\D3D11.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Debug\Waveform.shader" />
      <None Include="Assets\Sky\Skybox-Cubed-Filter.shader" />
+     <None Include="Assets\CS08\Nyx\Nyx_VFX.shader" />
      <None Include="Assets\PostProcessing\Shaders\API\XboxOne.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Sampling.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\API\PSP2.hlsl" />

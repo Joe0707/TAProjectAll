@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5a588276e4db2714dae0f4c36df6702d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _EmissMap: {fileID: 2800000, guid: c98a33b1056d6a54284eafdaa8181eea, type: 3}
+  - _NebulaTex: {fileID: 2800000, guid: c98a33b1056d6a54284eafdaa8181eea, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
