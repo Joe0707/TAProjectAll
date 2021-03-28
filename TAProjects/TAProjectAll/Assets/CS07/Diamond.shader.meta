@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d8891a467d94a6f43a8c1a522b80f67e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _RefractTex: {fileID: 8900000, guid: a76f1fb008cfa5e4d99dbe4eb0193b77, type: 3}
+  - _ReflectTex: {fileID: 8900000, guid: 9143b80d078e6064393fa54b89803e6d, type: 2}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
