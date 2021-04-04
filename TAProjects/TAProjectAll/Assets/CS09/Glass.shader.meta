@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bab7cd292c223f04abb7d1c6da4bc39d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _RefractMatcap: {fileID: 2800000, guid: ce6643fec8a79ca48ac4dc0ae0e9d49c, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

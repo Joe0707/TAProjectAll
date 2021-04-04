@@ -80,6 +80,7 @@
      <None Include="Assets\CS07\Crystal.shader" />
      <None Include="Assets\PostProcessing\Shaders\API\D3D12.hlsl" />
      <None Include="Assets\CS07\Diamond.shader" />
+     <None Include="Assets\CS09\Skybox-Cubed-Filter.shader" />
      <None Include="Assets\CS08\Nyx_Body.shader" />
      <None Include="Assets\PostProcessing\Shaders\API\OpenGL.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
@@ -94,6 +95,7 @@
      <None Include="Assets\PostProcessing\Shaders\Builtins\Fog.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\MultiScaleVORender.compute" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\ScalableAO.shader" />
+     <None Include="Assets\CS09\Glass.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\MotionBlur.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
