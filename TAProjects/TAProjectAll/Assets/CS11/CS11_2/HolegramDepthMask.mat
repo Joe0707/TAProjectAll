@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HolegramDepthMask
+  m_Shader: {fileID: 4800000, guid: 9e853f43271798740a34fd31526ca602, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GlicthTex:
+        m_Texture: {fileID: 2800000, guid: afb16754b93daf04187b10b438f7a250, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: fc1b48efdc94a08459a77ba560e287f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Scanline1:
+        m_Texture: {fileID: 2800000, guid: afb16754b93daf04187b10b438f7a250, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Scanline2:
+        m_Texture: {fileID: 2800000, guid: 4bbf045a9f687084ea4bc84d53c39623, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WireFrame:
+        m_Texture: {fileID: 2800000, guid: 92f284b27dea88e41885444624ec2963, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.3
+    - _FlickControl: 0.3
+    - _GlicthFreq: 0.2
+    - _GlicthHardness: 5
+    - _GlicthSpeed: -0.25
+    - _GlicthWidth: 0.8
+    - _Line1Alpha: 0.1
+    - _Line1Freq: 1
+    - _Line1Hardness: 1
+    - _Line1Speed: -1
+    - _Line1Width: 0.25
+    - _Line2Alpha: 0.1
+    - _Line2Freq: 100
+    - _Line2Hardness: 1
+    - _Line2Speed: -3
+    - _Line2Width: 0
+    - _RandomTilling: 3
+    - _RimBias: 0
+    - _RimPower: 2
+    - _RimScale: 1
+    - _WireFrameIntensity: 1
+    - _ZWriteMode: 0
+    - __dirty: 0
+    m_Colors:
+    - _MainColor: {r: 0, g: 3.57013, b: 16.699, a: 0.042}
+    - _RandomVertexOffset: {r: -3, g: 0, b: 0, a: 0}
+    - _ScanlineColor: {r: 0, g: 0.2156863, b: 1, a: 0.04313726}
+    - _ScanlineVertexOffset: {r: -2.5, g: 0, b: 0, a: 0}
