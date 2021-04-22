@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 5adf0c82c43761c44b3d96b57a7f0e94
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: G_katana0_
+    100002: G_katana1_
+    100004: G_katana1_scl
+    100006: G_katana2_
+    100008: G_katana2_scl
+    100010: G_katana3_
+    100012: G_katana3_scl
+    100014: G_katana4_
+    100016: G_katana4_scl
+    100018: G_katana5_
+    100020: G_katana5_scl
+    100022: G_katana_attach
+    100024: G_katana_himo_base
+    100026: G_katana_himo_low1_
+    100028: G_katana_himo_low2_
+    100030: G_katana_himo_low3_
+    100032: G_katana_himo_low4_
+    100034: G_katana_himo_up1_
+    100036: G_katana_himo_up2_
+    100038: G_katana_himo_up3_
+    100040: G_katana_himo_up4_
+    100042: G_katana_kazari
+    100044: G_katana_low1_
+    100046: G_katana_low1_scl
+    100048: G_katana_low2_
+    100050: G_katana_low2_scl
+    100052: G_katana_low3_
+    100054: G_katana_low3_scl
+    100056: G_katana_low4_
+    100058: G_katana_low4_scl
+    100060: G_katana_low5_
+    100062: G_katana_low5_scl
+    100064: G_katana_tuba
+    100066: G_katana_tuba_only
+    100068: G_saya1_
+    100070: G_saya1_scl
+    100072: G_saya2_
+    100074: G_saya2_scl
+    100076: G_saya3_
+    100078: G_saya3_scl
+    100080: G_saya4_
+    100082: G_saya4_scl
+    100084: G_saya5_
+    100086: G_saya5_scl
+    100088: G_saya_grip
+    100090: G_weapon_base
+    100092: G_weapon_grip
+    100094: G_weapon_root
+    100096: //RootNode
+    400000: G_katana0_
+    400002: G_katana1_
+    400004: G_katana1_scl
+    400006: G_katana2_
+    400008: G_katana2_scl
+    400010: G_katana3_
+    400012: G_katana3_scl
+    400014: G_katana4_
+    400016: G_katana4_scl
+    400018: G_katana5_
+    400020: G_katana5_scl
+    400022: G_katana_attach
+    400024: G_katana_himo_base
+    400026: G_katana_himo_low1_
+    400028: G_katana_himo_low2_
+    400030: G_katana_himo_low3_
+    400032: G_katana_himo_low4_
+    400034: G_katana_himo_up1_
+    400036: G_katana_himo_up2_
+    400038: G_katana_himo_up3_
+    400040: G_katana_himo_up4_
+    400042: G_katana_kazari
+    400044: G_katana_low1_
+    400046: G_katana_low1_scl
+    400048: G_katana_low2_
+    400050: G_katana_low2_scl
+    400052: G_katana_low3_
+    400054: G_katana_low3_scl
+    400056: G_katana_low4_
+    400058: G_katana_low4_scl
+    400060: G_katana_low5_
+    400062: G_katana_low5_scl
+    400064: G_katana_tuba
+    400066: G_katana_tuba_only
+    400068: G_saya1_
+    400070: G_saya1_scl
+    400072: G_saya2_
+    400074: G_saya2_scl
+    400076: G_saya3_
+    400078: G_saya3_scl
+    400080: G_saya4_
+    400082: G_saya4_scl
+    400084: G_saya5_
+    400086: G_saya5_scl
+    400088: G_saya_grip
+    400090: G_weapon_base
+    400092: G_weapon_grip
+    400094: G_weapon_root
+    400096: //RootNode
+    7400000: nrm_pose011
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
