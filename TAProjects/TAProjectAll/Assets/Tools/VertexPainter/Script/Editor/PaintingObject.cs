@@ -94,7 +94,7 @@ public class PaintingObject
 
 		var mr = tempGo.GetComponent<MeshRenderer>();
 		var mf = tempGo.GetComponent<MeshFilter>();
-		mr.sharedMaterial = skinMr.sharedMaterial;
+		mr.sharedMaterials = skinMr.sharedMaterials;
 		mf.sharedMesh = bakeMesh;
 
 		meshFilter = mf;

@@ -1,0 +1,5 @@
+{
+    "name": "RenderHeads.AVProMovieCapture.Demos",
+    "references": [ "RenderHeads.AVProMovieCapture.Runtime" ],
+    "includePlatforms": [ ]
+}

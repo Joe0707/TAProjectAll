@@ -1,0 +1,6 @@
+{
+    "name": "RenderHeads.AVProMovieCapture.Editor",
+    "references": [ "RenderHeads.AVProMovieCapture.Runtime" ],
+    "includePlatforms": [ "Editor" ]
+	
+}

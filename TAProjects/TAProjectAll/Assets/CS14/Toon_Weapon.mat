@@ -18,9 +18,35 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 255903f3f39e31b4bad0f03866068db8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ILMMap:
+        m_Texture: {fileID: 2800000, guid: 7cc5d45ae5e8e1f42835ba6430ca02aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 255903f3f39e31b4bad0f03866068db8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
+    - _SSSMap:
+        m_Texture: {fileID: 2800000, guid: 2145c999cc90af14ebe29e7262496491, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Outline: 0.01
+    - _OutlineWidth: 7
+    - _OutlineZBias: -10
+    - _SpecSize: 0.1
+    - _ToonHardness: 20
+    - _ToonThreshold: 0.5
+    m_Colors:
+    - _OutlineColor: {r: 0.08088237, g: 0.08088237, b: 0.08088237, a: 1}
+    - _RimLightColor: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 0.625}
+    - _RimLightDir: {r: 1, g: 0, b: -1, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

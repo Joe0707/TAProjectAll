@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 6_TShirt
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _DIFFUSEFALLOFF _NORMALMAPON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 2800000, guid: f01e371807fa06f439ef5876902dd30c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: b5962b56897da6b45a3108bdf4f7def4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseLightRamp:
+        m_Texture: {fileID: 2800000, guid: 04aca538ef063d047beef63aaa058960, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseRamp:
+        m_Texture: {fileID: 2800000, guid: 35b2ac9604cd41c40bce8098763489a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvironmentMap:
+        m_Texture: {fileID: 8900000, guid: fa5fbbffa644d654a8699364b6f95778, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b5962b56897da6b45a3108bdf4f7def4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 3fc96a7b6ad0b6a47b2e92ec1bfcf270, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimLightRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMask:
+        m_Texture: {fileID: 2800000, guid: f01e371807fa06f439ef5876902dd30c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecRamp:
+        m_Texture: {fileID: 2800000, guid: 701ae52e48f55e244943024cc20c5357, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DIFFUSEFALLOFF: 1
+    - _DepthBias: 12
+    - _DetailNormalMapScale: 1
+    - _DiffuseIntensity: 0.5
+    - _DstBlend: 0
+    - _EdgeThickness: 1
+    - _EnvIntensity: 0.5
+    - _EnvironmentIntensity: 0.5
+    - _FresnelMax: 1
+    - _FresnelMin: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NORMALMAPON: 1
+    - _NormalIntensity: 1
+    - _OcclusionStrength: 1
+    - _Outline: 2
+    - _OutlineGain: 1
+    - _OutlineSaturate: 1
+    - _OutlineZbias: 0
+    - _Parallax: 0.02
+    - _RIMLIGHT: 0
+    - _RimPower: 1
+    - _Roughness: 0
+    - _RoughnessAdjust: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecHighIntensity: 0
+    - _SpecHighShininess: 2000
+    - _SpecIntensity: 0
+    - _SpecLowIntensity: 1
+    - _SpecLowShininess: 3.3
+    - _SpecShininess: 100
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TintLayer1_Offset: 0
+    - _TintLayer2_Offset: 0
+    - _TintLayer3_Offset: 0
+    - _TintLowOffset: 0
+    - _TintMidOffset: 0
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AttenDir: {r: 1, g: -1, b: 1, a: 1}
+    - _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+    - _DiffuseAttenDir: {r: -1, g: -1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0.5441177, g: 0.5441177, b: 0.5441177, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SpecHighColor: {r: 0.1102941, g: 0.1102941, b: 0.1102941, a: 1}
+    - _SpecLowColor: {r: 0.13235295, g: 0.13235295, b: 0.13235295, a: 1}
+    - _SpecOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _TintHighColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintLayer1: {r: 1, g: 1, b: 1, a: 1}
+    - _TintLayer2: {r: 0.3254902, g: 0.6862745, b: 0.7882353, a: 1}
+    - _TintLayer3: {r: 0.38431373, g: 0.72156864, b: 0.8156863, a: 1}
+    - _TintLowColor: {r: 0.38431376, g: 0.72156864, b: 0.81568635, a: 1}
+    - _TintMidColor: {r: 0.3254902, g: 0.6862745, b: 0.78823537, a: 1}
