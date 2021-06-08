@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LED_01
+  m_Shader: {fileID: 4800000, guid: 1115ad9e97690334ea6d3bcefac141de, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Background:
+        m_Texture: {fileID: 2800000, guid: ab65994854a96cf4ca6dfc2eec944e40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortions:
+        m_Texture: {fileID: 2800000, guid: 54f14b3d69418fe419f29adf2c1ec9ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: ab65994854a96cf4ca6dfc2eec944e40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LED:
+        m_Texture: {fileID: 2800000, guid: 0d03e934ec665394395cecb6d54d29cb, type: 3}
+        m_Scale: {x: 8, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _LEDGlow:
+        m_Texture: {fileID: 2800000, guid: 8cf15cb8d8ff78a43a298c4445ff3350, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Logo:
+        m_Texture: {fileID: 2800000, guid: ab65994854a96cf4ca6dfc2eec944e40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 8714712f4d4a886488df03a7007d0adc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoPower: 1
+    - _BackgroundEm: 1
+    - _Distort: 5
+    - _DistortPower: 0.103
+    - _EmissionPower: 1
+    - _FlickingSpeed: 1
+    - _GlitchIntensity: 1
+    - _LEDint: 1
+    - _MaxRoughness: 1
+    - _MinRoughness: 0
+    - _PannerX: 0
+    - _PannerY: 0
+    - _Smoothness: 0
+    - __dirty: 0
+    m_Colors:
+    - _AlbedoColor: {r: 0.49056596, g: 0.49056596, b: 0.49056596, a: 0}
+    - _Background: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Glitch1: {r: 0, g: 0, b: 0, a: 0}
+    - _Glitch2: {r: 0, g: 0.5448273, b: 1, a: 0}
+    - _ScanlineColor: {r: 0.8562282, g: 0.4740895, b: 0.9919412, a: 0}
+    - _Speed: {r: 0, g: 0, b: 0, a: 0}

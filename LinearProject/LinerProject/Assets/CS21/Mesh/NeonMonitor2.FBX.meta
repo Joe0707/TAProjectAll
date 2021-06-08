@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 6018b9df309b7b041b5c600697ca7fb8
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_Tech_Screens
+    100002: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_GlassTransparent
+    100004: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_Screens
+    100006: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_ScreensDim
+    100008: //RootNode
+    100010: Object001
+    100012: Object002
+    100014: Object003
+    100016: Object004
+    100018: Object005
+    100020: Object006
+    100022: Object007
+    400000: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_Tech_Screens
+    400002: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_GlassTransparent
+    400004: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_Screens
+    400006: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_ScreensDim
+    400008: //RootNode
+    400010: Object001
+    400012: Object002
+    400014: Object003
+    400016: Object004
+    400018: Object005
+    400020: Object006
+    400022: Object007
+    2100000: 01 - Default
+    2100002: 02 - Default
+    2100004: Wall Paint
+    2100006: 03 - Default
+    2100008: 06 - Default
+    2100010: 11 - Default
+    2100012: 12 - Car Paint
+    2100014: Ceramic
+    2100016: 05 - Default
+    2100018: 04 - Default
+    2100020: Metal
+    2300000: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_Tech_Screens
+    2300002: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_GlassTransparent
+    2300004: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_Screens
+    2300006: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_ScreensDim
+    2300008: Object001
+    2300010: Object002
+    2300012: Object003
+    2300014: Object004
+    2300016: Object005
+    2300018: Object006
+    2300020: Object007
+    3300000: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_Tech_Screens
+    3300002: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_GlassTransparent
+    3300004: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_Screens
+    3300006: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_ScreensDim
+    3300008: Object001
+    3300010: Object002
+    3300012: Object003
+    3300014: Object004
+    3300016: Object005
+    3300018: Object006
+    3300020: Object007
+    4300000: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_Tech_Screens
+    4300002: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_GlassTransparent
+    4300004: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_Screens
+    4300006: Kitbash3d_CyberpunkProps-Native_Desirefx_me_CyberShop_VideoTech_ScreensDim
+    4300008: Object001
+    4300010: Object002
+    4300012: Object003
+    4300014: Object004
+    4300016: Object005
+    4300018: Object006
+    4300020: Object007
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: b9a57120596cfd14396449eb414598cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: b50a95a46d9f9de4fbcbd307d6c52de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 819c191e71ed9d14d99b279727d61cdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: 28553f4dc4491384ebd43450fadf5bcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: 611763940b839154db80b81692f5e3b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 - Default
+    second: {fileID: 2100000, guid: 05271158fb544e343a27df1acd48a352, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - Default
+    second: {fileID: 2100000, guid: cbf95232ae460a647a69ab784e8bd7bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12 - Car Paint
+    second: {fileID: 2100000, guid: 1714768e3b1535d4987f38636025d1d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic
+    second: {fileID: 2100000, guid: 7bfe31a9a25072d42a75f433cb2ae49b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: bd9290a0e925f094dbe0055254a524ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall Paint
+    second: {fileID: 2100000, guid: 5c3bd9dc645c1294e8c6993c894b09cd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

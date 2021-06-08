@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: cb4b6a7c5d5e1564fb9fa2ea85ae0a9b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _RainDropNormal: {fileID: 2800000, guid: 93fd14ee9fc4e5c409f0ce2dbdfcd5ed, type: 3}
+  - _Texture0: {fileID: 2800000, guid: 91081fb4df81b1c449446d16f26b1fa5, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
