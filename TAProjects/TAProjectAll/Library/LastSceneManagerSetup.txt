@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CS09/CS09.unity
+- path: Assets/CS15/CS15/CS15.unity
   isLoaded: 1
   isActive: 1

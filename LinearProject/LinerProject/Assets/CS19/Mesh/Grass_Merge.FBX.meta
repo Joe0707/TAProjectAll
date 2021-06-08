@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 81ec9583c62e7f1469a06d44d2ecc63e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 0
+    100002: 0 1
+    100004: 1022
+    100006: 1100
+    100008: 111
+    100010: 1111
+    100012: 113
+    100014: 1138
+    100016: 116
+    100018: 122
+    100020: 126
+    100022: 127
+    100024: 129
+    100026: 146
+    100028: 149
+    100030: 150
+    100032: 154
+    100034: 155
+    100036: 157
+    100038: 1759
+    100040: 19
+    100042: 1932
+    100044: 2334
+    100046: 262
+    100048: 2656
+    100050: 271
+    100052: 274
+    100054: 32
+    100056: 348
+    100058: 373
+    100060: 38
+    100062: 39
+    100064: 45
+    100066: 49
+    100068: 750
+    100070: 797
+    100072: 910
+    100074: 95
+    100076: 97
+    100078: FoliageInstancedStaticMeshComponent_19
+    100080: FoliageInstancedStaticMeshComponent_9
+    100082: //RootNode
+    400000: 0
+    400002: 0 1
+    400004: 1022
+    400006: 1100
+    400008: 111
+    400010: 1111
+    400012: 113
+    400014: 1138
+    400016: 116
+    400018: 122
+    400020: 126
+    400022: 127
+    400024: 129
+    400026: 146
+    400028: 149
+    400030: 150
+    400032: 154
+    400034: 155
+    400036: 157
+    400038: 1759
+    400040: 19
+    400042: 1932
+    400044: 2334
+    400046: 262
+    400048: 2656
+    400050: 271
+    400052: 274
+    400054: 32
+    400056: 348
+    400058: 373
+    400060: 38
+    400062: 39
+    400064: 45
+    400066: 49
+    400068: 750
+    400070: 797
+    400072: 910
+    400074: 95
+    400076: 97
+    400078: FoliageInstancedStaticMeshComponent_19
+    400080: FoliageInstancedStaticMeshComponent_9
+    400082: //RootNode
+    2100000: MI_Grass01
+    2100002: MI_Flower01
+    2300000: 0
+    2300002: 0 1
+    2300004: 1022
+    2300006: 1100
+    2300008: 111
+    2300010: 1111
+    2300012: 113
+    2300014: 1138
+    2300016: 116
+    2300018: 122
+    2300020: 126
+    2300022: 127
+    2300024: 129
+    2300026: 146
+    2300028: 149
+    2300030: 150
+    2300032: 154
+    2300034: 155
+    2300036: 157
+    2300038: 1759
+    2300040: 19
+    2300042: 1932
+    2300044: 2334
+    2300046: 262
+    2300048: 2656
+    2300050: 271
+    2300052: 274
+    2300054: 32
+    2300056: 348
+    2300058: 373
+    2300060: 38
+    2300062: 39
+    2300064: 45
+    2300066: 49
+    2300068: 750
+    2300070: 797
+    2300072: 910
+    2300074: 95
+    2300076: 97
+    3300000: 0
+    3300002: 0 1
+    3300004: 1022
+    3300006: 1100
+    3300008: 111
+    3300010: 1111
+    3300012: 113
+    3300014: 1138
+    3300016: 116
+    3300018: 122
+    3300020: 126
+    3300022: 127
+    3300024: 129
+    3300026: 146
+    3300028: 149
+    3300030: 150
+    3300032: 154
+    3300034: 155
+    3300036: 157
+    3300038: 1759
+    3300040: 19
+    3300042: 1932
+    3300044: 2334
+    3300046: 262
+    3300048: 2656
+    3300050: 271
+    3300052: 274
+    3300054: 32
+    3300056: 348
+    3300058: 373
+    3300060: 38
+    3300062: 39
+    3300064: 45
+    3300066: 49
+    3300068: 750
+    3300070: 797
+    3300072: 910
+    3300074: 95
+    3300076: 97
+    4300000: 0
+    4300002: 19
+    4300004: 49
+    4300006: 97
+    4300008: 113
+    4300010: 116
+    4300012: 122
+    4300014: 126
+    4300016: 127
+    4300018: 129
+    4300020: 146
+    4300022: 149
+    4300024: 150
+    4300026: 154
+    4300028: 155
+    4300030: 157
+    4300032: 262
+    4300034: 271
+    4300036: 373
+    4300038: 750
+    4300040: 797
+    4300042: 910
+    4300044: 1022
+    4300046: 1100
+    4300048: 1111
+    4300050: 1138
+    4300052: 1759
+    4300054: 1932
+    4300056: 2334
+    4300058: 2656
+    4300060: 0
+    4300062: 32
+    4300064: 38
+    4300066: 39
+    4300068: 45
+    4300070: 95
+    4300072: 111
+    4300074: 274
+    4300076: 348
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Flower01
+    second: {fileID: 2100000, guid: b3c4dfba56c76b44eb48462106402bc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Grass01
+    second: {fileID: 2100000, guid: ba07a9c3a6fe35d4b83a892bfdd716b3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

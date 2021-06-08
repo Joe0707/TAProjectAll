@@ -90,5 +90,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FogColor1: {r: 0, g: 0.3793104, b: 1, a: 0}
+    - _FogColor1: {r: 0.2926038, g: 0.5497703, b: 0.9705882, a: 0}
     - _SunFogColor1: {r: 0.79716015, g: 0.63235295, b: 1, a: 0}

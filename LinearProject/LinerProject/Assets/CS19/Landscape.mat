@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Landscape
+  m_Shader: {fileID: 4800000, guid: 193fcbf579077a141badda4f2fc8228f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlendMap:
+        m_Texture: {fileID: 2800000, guid: b319939d1b8ecba41ba42bdd281b3727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1_BaseColor:
+        m_Texture: {fileID: 2800000, guid: fbc410215dc498046a53f337147a497d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1_HRA:
+        m_Texture: {fileID: 2800000, guid: c99234d9562fd4d4093a91230c3b1b07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1_Normal:
+        m_Texture: {fileID: 2800000, guid: 694653547afca3948bcb3fb775d80291, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2_BaseColor:
+        m_Texture: {fileID: 2800000, guid: 3f42953a5ef8d0047ab025ee7078eb93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2_HRA:
+        m_Texture: {fileID: 2800000, guid: 064db50843ef7154c8c0efab87b9a615, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2_Normal:
+        m_Texture: {fileID: 2800000, guid: 6ca895ccc8c4288498803f7a977cd7f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3_BaseColor:
+        m_Texture: {fileID: 2800000, guid: 43ef035d194e65e4a8d1e8b60d0f5bc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3_HRA:
+        m_Texture: {fileID: 2800000, guid: 757acd33b7e838647983fc8e8d0ba919, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3_Normal:
+        m_Texture: {fileID: 2800000, guid: 884ad85d61a4615488aa65c12b5f0941, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendContrast: 0.1
+    - _Layer1_HeightContrast: 0
+    - _Layer1_Tilling: 8
+    - _Layer2_HeightContrast: 0.52
+    - _Layer2_Tilling: 6
+    - _Layer3_HeightContrast: 0.5
+    - _Layer3_Tilling: 12
+    - _SlopeContrast: 1
+    - _SlopeRange: 0.4
+    - __dirty: 0
+    m_Colors: []
