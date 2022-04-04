@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Dragon
+  m_Shader: {fileID: 4800000, guid: c37a2c7c0dbbf6541a090ba0e8e8f19c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvMap:
+        m_Texture: {fileID: 8900000, guid: fa5fbbffa644d654a8699364b6f95778, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvironmentMap:
+        m_Texture: {fileID: 8900000, guid: fa5fbbffa644d654a8699364b6f95778, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 2800000, guid: 87d219a4f48dd6e43ab27350b87d748a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOAdjust: 1
+    - _AddPassDistortion: 0
+    - _AddPassPower: 10
+    - _AddPassScale: 1
+    - _BasePassDistortion: 0.2
+    - _BasePassPower: 1
+    - _BasePassScale: 5
+    - _Distortion: 1
+    - _EnvIntensity: 1.2
+    - _EnvRotate: 60
+    - _EnvirRotate: 60
+    - _EnvironmentIntensity: 1
+    - _FresnelMax: 1
+    - _FresnelMin: 0
+    - _NormalStrength: 1
+    - _Opacity: 0.25
+    - _PointPower: 1
+    - _PointScale: 1
+    - _Power: 1
+    - _RimIntensity: 1
+    - _RimMax: 1
+    - _RimMin: 0
+    - _Rotate: 0
+    - _RoughnessAdjust: 0
+    - _Scale: 1
+    - _Shininess: 10
+    - _SpecShininess: 21.8
+    - _Translucy: 0.2
+    - _TransmissDistortion: 0.1
+    - _TransmissPower: 1
+    - _TransmissScale: 2.54
+    - __BasePassDistortion: 0.2
+    m_Colors:
+    - _AddColor: {r: 0.22794116, g: 0.12113709, b: 0.05195717, a: 1}
+    - _AddPassColor: {r: 0.28676468, g: 0.15917476, b: 0.061148357, a: 1}
+    - _BasePassColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseColor: {r: 0.8235294, g: 0.71277905, b: 0.5147059, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColorA: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TransmissColor: {r: 0.64716697, g: 0.97794116, b: 0.71788424, a: 1}
