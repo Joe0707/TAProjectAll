@@ -164,6 +164,7 @@
      <None Include="Assets\PostProcessing\Shaders\Builtins\MultiScaleVODownsample2.compute" />
      <None Include="Assets\CS18\KawaseBlur.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\ScalableAO.hlsl" />
+     <None Include="Assets\New Amplify Shader.shader" />
      <None Include="Assets\PostProcessing\Shaders\ACES.hlsl" />
      <None Include="Assets\Test\TestFB.shader" />
      <None Include="Assets\CS17\CS17Global\GlobalFog.shader" />
@@ -173,6 +174,7 @@
      <None Include="Assets\CS16\KawaseBlur.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\MultiScaleVODownsample1.compute" />
      <None Include="Assets\PostProcessing\Shaders\StdLib.hlsl" />
+     <None Include="Assets\Test\NewToonShader.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\MultiScaleVO.shader" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\DepthOfField.hlsl" />
      <None Include="Assets\PostProcessing\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
@@ -401,13 +403,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.37c2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/10729/AppData/Local/Unity/cache/packages/packages.unity.cn/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.cn/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/10729/AppData/Local/Unity/cache/packages/packages.unity.cn/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.cn/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/10729/AppData/Local/Unity/cache/packages/packages.unity.cn/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.cn/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

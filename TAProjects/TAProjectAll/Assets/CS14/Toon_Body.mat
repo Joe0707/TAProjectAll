@@ -46,7 +46,7 @@ Material:
     - _Outline: 0.01
     - _OutlineWidth: 7
     - _OutlineZBias: -10
-    - _SpecSize: 0.1
+    - _SpecSize: 0.286
     - _ToonHardness: 50
     - _ToonThreshold: 0.6
     m_Colors:

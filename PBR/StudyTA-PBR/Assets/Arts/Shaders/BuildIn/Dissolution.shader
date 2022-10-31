@@ -38,7 +38,7 @@
             sampler2D _MainTex;
             sampler2D _DissolveTex;
             float4 _DissolveTex_ST;
-            sampler2D _RampTex;
+            sampler _RampTex;
             float _Clip;
             v2f vert (appdata v)
             {
@@ -54,9 +54,10 @@
                 fixed4 col = tex2D(_MainTex, i.uv);
                 fixed4 dissolveTex = tex2D(_DissolveTex, i.uv);
                 clip(dissolveTex.r-_Clip);
-                fixed4 rampTex = tex2D(_RampTex,smoothstep(_Clip,1,dissolveTex.r));
+                fixed dissolveValue = saturate((dissolveTex.r-_Clip)/(_Clip+0.1-_Clip));
+                fixed4 rampTex = tex1D(_RampTex,dissolveValue);
                 col +=rampTex;
-                return col;
+                return col; 
             }
             ENDCG
         }
