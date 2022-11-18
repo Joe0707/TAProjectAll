@@ -30,6 +30,7 @@
         _RimPower("外发光集中度",range(1,8)) = 1
         _RimSmoothness("外发光柔和度",range(0,1)) = 1
         _RimIntensity("外发光强度",range(1,10)) = 1
+        [Toggle]_UseShadow("是否开启阴影",int) = 0
         // _StencilRef("Stencil Ref",int) = 1
     }
     SubShader
@@ -52,6 +53,8 @@
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+            #pragma multi_compile _ _MAIN_LIGHT_SHADOWS
+            #pragma multi_compile _ _SHADOWS_SOFT
 
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
@@ -69,6 +72,7 @@
                 float4 pos:SV_POSITION;
                 half3 normalWS:TEXCOORD1;    //normal in world space
                 half3 viewWS:TEXCOORD2;
+                float4 shadowCoord:TEXCOORD3;
             };
             CBUFFER_START(UnityPerMaterial)
                 sampler2D _MainTex;     //固有色
@@ -99,6 +103,7 @@
                 float _RimSmoothness;
                 int _UseRimLight;
                 float _RimIntensity;
+                int _UseShadow;
             CBUFFER_END
             v2f vert(appdata v)
             {
@@ -112,6 +117,7 @@
                 o.normalWS = TransformObjectToWorldNormal(v.normalOS);
                 half3 posWS = TransformObjectToWorld(v.vertex);
                 o.viewWS = normalize(_WorldSpaceCameraPos - posWS);
+                o.shadowCoord = TransformWorldToShadowCoord(posWS);
                 return o;
             }
             
@@ -141,7 +147,10 @@
                 if(_UseAOMap){
                     lvl *= tex2D(_AOMap,i.uv);
                 }
-
+                if(_UseShadow){
+                    Light mainLight = GetMainLight(i.shadowCoord);
+                    lvl*= mainLight.shadowAttenuation;
+                }
                 half4 baseColor = tex2D(_MainTex,i.uv);
                 half4 col;
                 if(_UseRampColorMap){
@@ -246,6 +255,37 @@
                 return _UseVertexColor?i.color:_OutlineColor*rampColor;
             }
             
+            ENDHLSL
+        }
+        Pass
+        {
+            Name "ShadowCaster"
+            Tags{"LightMode" = "ShadowCaster"}
+
+            ZWrite On
+            ZTest LEqual
+            ColorMask 0
+
+            HLSLPROGRAM
+            // Required to compile gles 2.0 with standard srp library
+            #pragma prefer_hlslcc gles
+            #pragma exclude_renderers d3d11_9x
+            #pragma target 2.0
+
+            // -------------------------------------
+            // Material Keywords
+            #pragma shader_feature _ALPHATEST_ON
+            #pragma shader_feature _GLOSSINESS_FROM_BASE_ALPHA
+
+            //--------------------------------------
+            // GPU Instancing
+            #pragma multi_compile_instancing
+
+            #pragma vertex ShadowPassVertex
+            #pragma fragment ShadowPassFragment
+
+            #include "Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl"
             ENDHLSL
         }
     }

@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon_Weapon
   m_Shader: {fileID: 4800000, guid: 0ef09f5fe23a8964f9d9b72568c63e23, type: 3}
-  m_ShaderKeywords: _USEAVGNORMAL_ON _USERAMPCOLORMAP_ON
+  m_ShaderKeywords: _USEAVGNORMAL_ON _USERAMPCOLORMAP_ON _USESHADOW_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -59,8 +59,14 @@ Material:
     - _OutlineWidth: 3
     - _OutlineZBias: -10
     - _PixelWidth: 1
+    - _RimIntensity: 1
+    - _RimPower: 1
+    - _RimSmoothness: 1
+    - _SpecIntensity: 1
+    - _SpecOpacity: 1
     - _SpecPower: 128
     - _SpecSize: 0.1
+    - _SpecSmoothness: 1
     - _StencilRef: 1
     - _Step: 0.45
     - _StepCount: 2
@@ -71,12 +77,15 @@ Material:
     - _UseAvgNormal: 1
     - _UseFaceInfo: 0
     - _UseRampColorMap: 1
+    - _UseRimLight: 0
+    - _UseShadow: 1
     - _UseSpecular: 0
     - _UseVertexColor: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _FaceInfo: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimLightColor: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 0.625}
     - _RimLightDir: {r: 1, g: 0, b: -1, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

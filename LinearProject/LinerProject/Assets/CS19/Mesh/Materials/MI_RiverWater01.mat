@@ -83,9 +83,9 @@ Material:
     - _FoamBlend: 0
     - _FoamContrast: 5
     - _FoamDissolve: 1
-    - _FoamFastSpeed: 2.02
+    - _FoamFastSpeed: 1
     - _FoamFrequency: 15
-    - _FoamRange: 0.27
+    - _FoamRange: 0.55
     - _FoamSpeed: 1
     - _FoamSpeed1: 0.5
     - _FoamWidth: 0
