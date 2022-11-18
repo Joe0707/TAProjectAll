@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon_Head
   m_Shader: {fileID: 4800000, guid: 0ef09f5fe23a8964f9d9b72568c63e23, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _USEAVGNORMAL_ON _USEFACEINFO_ON _USERAMPCOLORMAP_ON _USESPECULAR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 549ca234ff9803c438d7a606d8da7f3b, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -35,6 +39,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 549ca234ff9803c438d7a606d8da7f3b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RampColorMap:
+        m_Texture: {fileID: 2800000, guid: fc17e2dff9a3b774f94f9f3f0b618230, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampStepMap:
+        m_Texture: {fileID: 2800000, guid: aefdcd04d24e69340a0cc533dc2fdb18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SSSMap:
         m_Texture: {fileID: 2800000, guid: fc17e2dff9a3b774f94f9f3f0b618230, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -44,15 +56,35 @@ Material:
     - _Glossiness: 0.5
     - _Metallic: 0
     - _Outline: 0.01
-    - _OutlineWidth: 0.2
+    - _OutlineWidth: 3
     - _OutlineZBias: -10
+    - _PixelWidth: 1
+    - _RimIntensity: 1
+    - _RimPower: 1
+    - _RimSmoothness: 1
+    - _SpecIntensity: 8.34
+    - _SpecOpacity: 0.138
+    - _SpecPower: 80
     - _SpecSize: 0.1
+    - _SpecSmoothness: 0.2
     - _StencilRef: 1
+    - _Step: 0.45
+    - _StepCount: 2
+    - _StepMode: 3
     - _ToonHardness: 20
     - _ToonThreshold: 0.6
+    - _UseAOMap: 0
+    - _UseAvgNormal: 1
+    - _UseFaceInfo: 1
+    - _UseRampColorMap: 1
+    - _UseRimLight: 0
+    - _UseSpecular: 1
+    - _UseVertexColor: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FaceInfo: {r: -0.58, g: 1.282, b: 0, a: 0.43}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimLightColor: {r: 0, g: 0.37931037, b: 1, a: 0.613}
     - _RimLightDir: {r: 1, g: 0, b: -1, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

@@ -355,7 +355,7 @@ namespace UTJ.NormalPainter
         void EndEdit()
         {
             ReleaseComputeBuffers();
-            if(m_settings) m_settings.projectionNormalSource = null;
+            if (m_settings) m_settings.projectionNormalSource = null;
 
             m_editing = false;
         }
@@ -430,7 +430,7 @@ namespace UTJ.NormalPainter
         public int HandleEditTools()
         {
             // check if model has been changed
-            if(m_meshTarget != GetTargetMesh())
+            if (m_meshTarget != GetTargetMesh())
             {
                 BeginEdit();
             }
@@ -666,11 +666,11 @@ namespace UTJ.NormalPainter
                     {
                         handled = true;
                     }
-                    else if(settings.selectTriangle && SelectTriangle(e, selectSign))
+                    else if (settings.selectTriangle && SelectTriangle(e, selectSign))
                     {
                         handled = true;
                     }
-                    else if(m_rayHit)
+                    else if (m_rayHit)
                     {
                         handled = true;
                     }
@@ -710,7 +710,7 @@ namespace UTJ.NormalPainter
                 {
                     if (et == EventType.MouseDown || et == EventType.MouseDrag)
                     {
-                        if(et == EventType.MouseDown)
+                        if (et == EventType.MouseDown)
                         {
                             m_lassoPoints.Clear();
                             m_meshLasso.Clear();
@@ -790,7 +790,7 @@ namespace UTJ.NormalPainter
 
         void OnDrawGizmosSelected()
         {
-            if(!m_editing) { return; }
+            if (!m_editing) { return; }
 
             if (m_matVisualize == null || m_meshPoint == null || m_meshVector == null)
             {
@@ -868,7 +868,7 @@ namespace UTJ.NormalPainter
             m_cmdDraw.Clear();
 
             // overlay
-            if(m_settings.modelOverlay != ModelOverlay.None)
+            if (m_settings.modelOverlay != ModelOverlay.None)
             {
                 if (m_cbPoints != null) m_matOverlay.SetBuffer("_Points", m_cbPoints);
                 if (m_cbNormals != null) m_matOverlay.SetBuffer("_Normals", m_cbNormals);
@@ -886,7 +886,7 @@ namespace UTJ.NormalPainter
             if (m_settings.showBrushRange && m_rayHit && brushMode)
                 m_cmdDraw.DrawRenderer(renderer, m_matVisualize, 0, (int)VisualizeType.BrushRange);
 
-            if(m_settings.visualize)
+            if (m_settings.visualize)
             {
                 // visualize vertices
                 if (m_settings.showVertices && m_points != null)
@@ -915,7 +915,7 @@ namespace UTJ.NormalPainter
                 if (pickMode || brushReplace)
                     m_cmdDraw.DrawMesh(m_meshVector, Matrix4x4.identity, m_matVisualize, 0, (int)VisualizeType.Direction);
             }
-            if(brushProjection && m_settings.projectionMode == 0)
+            if (brushProjection && m_settings.projectionMode == 0)
             {
                 // visualize projection direction
                 m_cmdDraw.DrawMesh(m_meshVector, Matrix4x4.identity, m_matVisualize, 0, (int)VisualizeType.Direction);
