@@ -36,7 +36,7 @@ namespace UTJ.NormalPainter
         }
 
         public static implicit operator IntPtr(PinnedObject<T> v) { return v.Pointer; }
-        public static implicit operator T (PinnedObject<T> v) { return v.Object; }
+        public static implicit operator T(PinnedObject<T> v) { return v.Object; }
     }
 
 
@@ -124,8 +124,8 @@ namespace UTJ.NormalPainter
         public int Length { get { return m_data.Length; } }
         public T this[int x, int y]
         {
-            get { return m_data[x,y]; }
-            set { m_data[x,y] = value; }
+            get { return m_data[x, y]; }
+            set { m_data[x, y] = value; }
         }
         public T[,] Array { get { return m_data; } }
         public IntPtr Pointer { get { return m_data.Length == 0 ? IntPtr.Zero : m_gch.AddrOfPinnedObject(); } }
@@ -166,7 +166,7 @@ namespace UTJ.NormalPainter
         }
 
         public static implicit operator IntPtr(PinnedArray2D<T> v) { return v == null ? IntPtr.Zero : v.Pointer; }
-        public static implicit operator T[,] (PinnedArray2D<T> v) { return v == null ? null : v.Array; }
+        public static implicit operator T[,](PinnedArray2D<T> v) { return v == null ? null : v.Array; }
     }
 
     // Pinned"List" but assume size is fixed (== functionality is same as PinnedArray).
@@ -202,8 +202,10 @@ namespace UTJ.NormalPainter
             var ret = new List<T>();
             var caster = new Caster();
             caster.list = ret;
+            UnityEngine.Debug.Log("listcount" + caster.list.Count);
             caster.data.items = data;
             caster.data.size = data.Length;
+            UnityEngine.Debug.Log("caster.data.items" + caster.data.items.Length);
             return ret;
         }
         public static void ListSetCount(List<T> list, int count)
@@ -257,9 +259,10 @@ namespace UTJ.NormalPainter
 
         public void Resize(int size)
         {
-            if(size > m_data.Length)
+            if (size > m_data.Length)
             {
-                LockList(l => {
+                LockList(l =>
+                {
                     l.Capacity = size;
                 });
             }
@@ -331,8 +334,8 @@ namespace UTJ.NormalPainter
         }
 
         public static implicit operator IntPtr(PinnedList<T> v) { return v == null ? IntPtr.Zero : v.Pointer; }
-        public static implicit operator T[] (PinnedList<T> v) { return v == null ? null : v.Array; }
-        public static implicit operator List<T> (PinnedList<T> v) { return v == null ? null : v.List; }
+        public static implicit operator T[](PinnedList<T> v) { return v == null ? null : v.Array; }
+        public static implicit operator List<T>(PinnedList<T> v) { return v == null ? null : v.List; }
     }
 
 }

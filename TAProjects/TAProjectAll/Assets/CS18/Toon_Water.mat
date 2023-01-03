@@ -88,9 +88,9 @@ Material:
     - _DstBlend: 0
     - _EdgeLength: 15
     - _FoamBlend: 0.13
-    - _FoamDissolve: 1.64
+    - _FoamDissolve: 1.72
     - _FoamFrequency: 10
-    - _FoamRange: 1
+    - _FoamRange: 1.63
     - _FoamSpeed: -1
     - _FoamWidth: 0.19
     - _FresnelPower: 10
@@ -114,7 +114,7 @@ Material:
     - _UVSec: 0
     - _UnderWaterDistort: 1
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _CauasticsSpeed: {r: -8, g: 0, b: 0, a: 0}
     - _CausticsSpeed: {r: -8, g: 0, b: 0, a: 0}
@@ -122,7 +122,7 @@ Material:
     - _DeepColor: {r: 0.09803922, g: 0.3882353, b: 0.7254902, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.531}
-    - _FoamNoiseSize: {r: 10, g: 40, b: 0, a: 0}
+    - _FoamNoiseSize: {r: 22.42, g: 48.22, b: 0, a: 0}
     - _FresnelColor: {r: 0.01176471, g: 0.3411765, b: 0.9843137, a: 1}
     - _NormalSpeed: {r: -10, g: 0, b: 0, a: 0}
     - _ShallowColor: {r: 0.1215686, g: 0.7490196, b: 0.7333333, a: 0.4588235}
