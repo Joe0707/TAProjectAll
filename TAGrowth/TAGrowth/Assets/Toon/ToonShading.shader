@@ -31,6 +31,7 @@
         _RimSmoothness("外发光柔和度",range(0,1)) = 1
         _RimIntensity("外发光强度",range(1,10)) = 1
         [Toggle]_UseShadow("是否开启阴影",int) = 0
+        [Toggle]_UseAniso("是否开启各向异性高光",int) = 0
         // _StencilRef("Stencil Ref",int) = 1
     }
     SubShader
@@ -73,6 +74,7 @@
                 half3 normalWS:TEXCOORD1;    //normal in world space
                 half3 viewWS:TEXCOORD2;
                 float4 shadowCoord:TEXCOORD3;
+                float4 binormalWS:TEXCOORD4;
             };
             CBUFFER_START(UnityPerMaterial)
                 sampler2D _MainTex;     //固有色
@@ -104,6 +106,7 @@
                 int _UseRimLight;
                 float _RimIntensity;
                 int _UseShadow;
+                int _UseAniso;
             CBUFFER_END
             v2f vert(appdata v)
             {
@@ -120,7 +123,12 @@
                 o.shadowCoord = TransformWorldToShadowCoord(posWS);
                 return o;
             }
-            
+            float StrandSpecular(float3 T,float3 H,float exponent)
+            {
+                float dotTH = dot(T,H);
+                float sinTH =sqrt(1.0-dotTH*dotTH);
+                float dirAtten = smoothstep(-1.0,0.0,dotTH);
+            }
             half4 frag(v2f i):SV_Target
             {
                 half3 n = normalize(i.normalWS);
@@ -163,9 +171,18 @@
                 }
                 if(_UseSpecular){
                     half h = normalize(normalize(v)+_MainLightPosition);//半程向量
-                    half specFinal = _SpecIntensity*pow(max(dot(n,h),0),_SpecPower);//光照强度系数
+                    half specFinal;
+                    if(_UseAniso){ //是否开启各项异性高光
+                        half3 t = normalize(i.binormalWS);  //取副法线数据
+                        // half shift = tex2D(_ShiftMap,i.uv);//W形发丝锯齿效果
+                        // t = ShiftTangent(t,n,shift);
+                        specFinal = StrandSpecular(t,h,_SpecPower); //天使环高光衰减系数
+                        }else{
+                        specFinal = _SpecIntensity*pow(max(dot(n,h),0),_SpecPower);//光照强度系数
+                    }
                     specFinal = smoothstep(0.3,0.3+_SpecSmoothness,specFinal);
                     col+=_SpecColor*specFinal*_SpecOpacity;
+                    return specFinal;
                 }   
                 if(_UseRimLight)
                 {
