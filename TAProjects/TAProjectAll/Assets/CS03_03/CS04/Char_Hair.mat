@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Char_Hair
+  m_Shader: {fileID: 4800000, guid: 80ec5a252a785d54f85dd0e800130582, type: 3}
+  m_ShaderKeywords: _DIFFUSECHECK_ON _IBLCHECK_ON _SPECCHECK_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisoMap:
+        m_Texture: {fileID: 2800000, guid: 2fe5bb3be6168c54ba2a10065a1a5331, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 5a80843c86dbca646972b4f6c128db0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CompMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvMap:
+        m_Texture: {fileID: 8900000, guid: 40e11ae9c68456f45bc6686508cf71eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: b9a6bd6d912f59f4ca1af1342ea0860f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLUT:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DiffuseCheck: 1
+    - _Expose: 0.03
+    - _IBLCheck: 1
+    - _MetalAdjust: 0
+    - _RoughnessAdjust: 0
+    - _SHCheck: 0
+    - _SSSOffset: 0
+    - _SpecCheck: 1
+    - _SpecNoise1: 0.68
+    - _SpecNoise2: 0.5
+    - _SpecOffset1: 0
+    - _SpecOffset2: 0
+    - _SpecShininess: 10
+    - _SpecShininess1: 0.1
+    - _SpecShininess2: 0.1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor1: {r: 0.03676468, g: 0.03676468, b: 0.03676468, a: 1}
+    - _SpecColor2: {r: 0.03137255, g: 0.03137255, b: 0.03137255, a: 1}
+    - custom_SHAb: {r: 0, g: 0, b: 0, a: 0}
+    - custom_SHAg: {r: 0, g: 0, b: 0, a: 0}
+    - custom_SHAr: {r: 0, g: 0, b: 0, a: 0}
+    - custom_SHBb: {r: 0, g: 0, b: 0, a: 0}
+    - custom_SHBg: {r: 0, g: 0, b: 0, a: 0}
+    - custom_SHBr: {r: 0, g: 0, b: 0, a: 0}
+    - custom_SHC: {r: 0, g: 0, b: 0, a: 1}

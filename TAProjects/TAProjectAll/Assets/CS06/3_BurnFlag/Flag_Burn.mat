@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Flag_Burn
+  m_Shader: {fileID: 4800000, guid: 62edf25116803634a99d63b5af91c7b3, type: 3}
+  m_ShaderKeywords: _MANNULCONTROL1_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 75c11ff777c73f745a290b5eb6b2723f, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: de5969b59a7d5db48b198da3aa63c061, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 6e9e3841a0552a34cb7c38b3628da853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise1:
+        m_Texture: {fileID: 2800000, guid: 25943e8eca27e824d92f7f502efd8342, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VAT_NORMAL:
+        m_Texture: {fileID: 2800000, guid: 908c9706f47c33a4aa4a2f048c2d4f90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VAT_NORMAL1:
+        m_Texture: {fileID: 2800000, guid: 908c9706f47c33a4aa4a2f048c2d4f90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VAT_POS:
+        m_Texture: {fileID: 2800000, guid: 0680b1a9af24f4442b4e252b528cf1db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VAT_POS1:
+        m_Texture: {fileID: 2800000, guid: 0680b1a9af24f4442b4e252b528cf1db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BoudingMax: 1.072085
+    - _BoudingMax1: 1.072085
+    - _BoudingMin: -2.653735
+    - _BoudingMin1: -2.653735
+    - _BumpScale: 1
+    - _ChangeAmount: 0.4
+    - _ChangeAmount1: 0
+    - _CharringOffset: 0.5
+    - _CharringWidth: 0.5
+    - _Cutoff: 0.5
+    - _DIR_INV1: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FlameIntensity: 5
+    - _FlameOffset: 0.45
+    - _FlameWidth: 0.2
+    - _Float0: 2
+    - _Float1: 2
+    - _Float2: 2
+    - _FrameCount: 100
+    - _FrameCount1: 100
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MANNULCONTROL: 0
+    - _MANNULCONTROL1: 1
+    - _Matallic: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseSpeed: 0.3
+    - _ObjectScale: 30
+    - _ObjectScale1: 15
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PivotOffset: 0.94
+    - _Size: 1
+    - _Smoothness: 0.125
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 0.25
+    - _Speed1: 0.25
+    - _Spread: 0.5
+    - _Spread1: 0.33
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _WindIntensity: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlameColor: {r: 0.64705884, g: 0.4764348, b: 0.334, a: 0}
+    - _NoiseSpeed: {r: 0, g: -0.2, b: 0, a: 0}
+    - _NoiseStrength: {r: 0.5, g: -1, b: 0, a: 0}

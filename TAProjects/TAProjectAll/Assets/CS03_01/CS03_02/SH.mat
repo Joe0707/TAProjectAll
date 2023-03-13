@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SH
+  m_Shader: {fileID: 4800000, guid: d024f038c5d04bc47862b0ba83b71b53, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 2800000, guid: d678bdba2f4a77d4fae829c469d1869e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 720df449100852e40b746503ca0b0d9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOAdjust: 1
+    - _Expose: 1.5
+    - _NormalIntensity: 1
+    - _Rotate: 0
+    - _RoughnessBrightness: 1
+    - _RoughnessContrast: 1
+    - _RoughnessMax: 1
+    - _RoughnessMin: 0
+    m_Colors:
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - custom_SHAb: {r: 0.024797423, g: 0.079473026, b: 0.010113586, a: 0.27058387}
+    - custom_SHAg: {r: 0.016112808, g: 0.013131116, b: 0.010790998, a: 0.22288802}
+    - custom_SHAr: {r: 0.008946653, g: -0.047310386, b: 0.01058974, a: 0.23153526}
+    - custom_SHBb: {r: 0.023072198, g: 0.014372465, b: -0.005358271, a: 0.010642126}
+    - custom_SHBg: {r: 0.013626291, g: 0.013929229, b: -0.0059838276, a: 0.010500107}
+    - custom_SHBr: {r: 0.007906358, g: 0.012327563, b: -0.009030778, a: 0.0089519285}
+    - custom_SHC: {r: 0.015063562, g: 0.018150281, b: 0.016150426, a: 1}

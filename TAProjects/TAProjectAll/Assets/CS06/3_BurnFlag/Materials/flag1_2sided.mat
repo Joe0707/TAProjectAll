@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: flag1_2sided
+  m_Shader: {fileID: 4800000, guid: 32e4791f9c6b95a43af22546f64bd2e9, type: 3}
+  m_ShaderKeywords: _MANNUL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnNoise:
+        m_Texture: {fileID: 2800000, guid: 6e9e3841a0552a34cb7c38b3628da853, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 75c11ff777c73f745a290b5eb6b2723f, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: de5969b59a7d5db48b198da3aa63c061, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _nTex:
+        m_Texture: {fileID: 2800000, guid: caa75183421396e45bdb9a2b6f05b786, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _posTex:
+        m_Texture: {fileID: 2800000, guid: 0680b1a9af24f4442b4e252b528cf1db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ChangeAmount: 0
+    - _CharringOffset: 0.5
+    - _CharringSpread: 0.4
+    - _Cutoff: 0.5
+    - _EmberGlow: 0.2
+    - _FlameIntensity: 5
+    - _FlowSpeed: 0.3
+    - _FlowStregth: 1
+    - _Glossiness: 0.321
+    - _Hardness: 0.5
+    - _Mannul: 1
+    - _Metallic: 0
+    - _ObjectSize: 30
+    - _PivotOffset: 0
+    - _WindStrength: 1
+    - __dirty: 1
+    - _boundingMax: 1.0720845
+    - _boundingMin: -2.6537354
+    - _numOfFrames: 100
+    - _pack_normal: 0
+    - _speed: 0.26
+    m_Colors:
+    - _BurnVertexOffset: {r: -0.2, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _FlameColor: {r: 1, g: 0.45882353, b: 0.23921569, a: 0}
+    - _FlowStregth: {r: 0.2, g: -1, b: 0, a: 0}

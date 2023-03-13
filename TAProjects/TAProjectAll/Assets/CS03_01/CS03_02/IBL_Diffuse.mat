@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: IBL_Diffuse
+  m_Shader: {fileID: 4800000, guid: 2c768994fa0ff4845ba80de2a41b263e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 2800000, guid: d678bdba2f4a77d4fae829c469d1869e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: c80e53fd254bc7042bc94d2336ed9be7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 720df449100852e40b746503ca0b0d9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 2800000, guid: 6e11ef9437c5c9a43ab727896438964e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOAdjust: 0.7
+    - _Expose: 1
+    - _NormalIntensity: 1
+    - _Rotate: 0
+    - _RoughnessBrightness: 1
+    - _RoughnessContrast: 1
+    - _RoughnessMax: 1
+    - _RoughnessMin: 0.418
+    m_Colors:
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
