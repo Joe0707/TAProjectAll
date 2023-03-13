@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 65348ffa3cf8c804ab72609693ec3389
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SGT_Ground_5_Normal: {fileID: 2800000, guid: bfc519b5f83cdee4ca3b1d96b96475ec,
+      type: 3}
+  - _SGT_Ground_5_Albedo: {fileID: 2800000, guid: d3acf765604aece4e86196de184012d2,
+      type: 3}
+  - _SGT_Ground_5_Smoothness: {fileID: 2800000, guid: d572eb85e4c185745acc7b0b270b769f,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Vine4
+  m_Shader: {fileID: 4800000, guid: 47e108a4f0044734e9b422fcd78a98f2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Brambles__Base_Color:
+        m_Texture: {fileID: 2800000, guid: af42bface2e2f5a4cbff1e6bada59ab0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Brambles__Normal_OpenGL:
+        m_Texture: {fileID: 2800000, guid: 8e0b8dd8a1fb4cd4784b58ca8409871e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Brambles__Roughness:
+        m_Texture: {fileID: 2800000, guid: 79722df8209c0d8419cec564ccf46330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Plane_BaseColor:
+        m_Texture: {fileID: 2800000, guid: c8461f3ab2ff47c489e4aeaf88a5e05d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Plane_NormalMap:
+        m_Texture: {fileID: 2800000, guid: c886840aa65cea14ab7494ed2314b46f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Plane_Smoothness:
+        m_Texture: {fileID: 2800000, guid: 5b69da41deae6fc468efafdbfb3d62ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SGT_Grass_3_Albedo2:
+        m_Texture: {fileID: 2800000, guid: c8461f3ab2ff47c489e4aeaf88a5e05d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SGT_Grass_3_Smoothness:
+        m_Texture: {fileID: 2800000, guid: 5b69da41deae6fc468efafdbfb3d62ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SGT_Grass_3_normal:
+        m_Texture: {fileID: 2800000, guid: c886840aa65cea14ab7494ed2314b46f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Vice_BaseColor:
+        m_Texture: {fileID: 2800000, guid: af42bface2e2f5a4cbff1e6bada59ab0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Vice_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 8e0b8dd8a1fb4cd4784b58ca8409871e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Vice_Roughness:
+        m_Texture: {fileID: 2800000, guid: 79722df8209c0d8419cec564ccf46330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _EndControlMax: 1.5
+    - _EndControlMin: 0.5
+    - _EndMax1: 1.388
+    - _EndMin1: 0.591
+    - _Float0: 0.05
+    - _GrouMin1: 0.088
+    - _Grow1: 0.73
+    - _GrowMax1: 0.875
+    - _Offset: -13.2
+    - _Scale: 0.02
+    - _Tilling: 20
+    - _TubeControl: 1.27
+    - _TubeWidth: 0.28
+    - __dirty: 0
+    m_Colors: []

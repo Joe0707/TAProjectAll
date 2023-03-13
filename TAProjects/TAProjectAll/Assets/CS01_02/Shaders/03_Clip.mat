@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 03_Clip
+  m_Shader: {fileID: 4800000, guid: c0abb5912e6997d45ab366b5a16a4dee, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fdb7bb09d8edcf642b01b32a58ce044d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 2800000, guid: c75f2bae5d9fca94da9f4b2be19dfcf9, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutout: 0
+    - _Debug: 0
+    - _Float: 0
+    m_Colors:
+    - _MainColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Speed: {r: 0.3, g: -6, b: 0.1, a: -1}
+    - _Vector: {r: 0.34, g: 0.85, b: 0.92, a: 1}

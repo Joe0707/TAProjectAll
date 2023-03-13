@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 47e108a4f0044734e9b422fcd78a98f2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Plane_NormalMap: {fileID: 2800000, guid: c886840aa65cea14ab7494ed2314b46f, type: 3}
+  - _Plane_BaseColor: {fileID: 2800000, guid: c8461f3ab2ff47c489e4aeaf88a5e05d, type: 3}
+  - _Vice_NormalMap: {fileID: 2800000, guid: 8e0b8dd8a1fb4cd4784b58ca8409871e, type: 3}
+  - _Vice_BaseColor: {fileID: 2800000, guid: af42bface2e2f5a4cbff1e6bada59ab0, type: 3}
+  - _Plane_Smoothness: {fileID: 2800000, guid: 5b69da41deae6fc468efafdbfb3d62ac, type: 3}
+  - _Vice_Roughness: {fileID: 2800000, guid: 79722df8209c0d8419cec564ccf46330, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
