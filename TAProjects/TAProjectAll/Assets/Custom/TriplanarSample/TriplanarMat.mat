@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Toon_Water
-  m_Shader: {fileID: 4800000, guid: 2c2e1d622ca30494780fdd2011a9e3d9, type: 3}
+  m_Name: TriplanarMat
+  m_Shader: {fileID: 4800000, guid: 6803ef9ac5af8544e92cce1654fd8522, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -20,14 +20,6 @@ Material:
     m_TexEnvs:
     - _BumpMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CauasticsTex:
-        m_Texture: {fileID: 2800000, guid: 7d70abc2f08d4e94ea11982e1e8c3cce, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CausticsTex:
-        m_Texture: {fileID: 2800000, guid: 72417ee6f632e4e4aabc8c81143957bf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,10 +46,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 783e703466a653b409f1083194037539, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,8 +54,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ReflectionTex:
-        m_Texture: {fileID: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: cd03d8d8d2294f941a24771282b1ccd6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -76,60 +64,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _CauasticsIntensity: 2
-    - _CauasticsRange: 1
-    - _CauasticsScale: 8
-    - _CausticsIntensity: 3
-    - _CausticsRange: 1
-    - _CausticsScale: 8
     - _Cutoff: 0.5
-    - _DeepRange: 5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EdgeLength: 15
-    - _FoamBlend: 0.13
-    - _FoamDissolve: 1.72
-    - _FoamFrequency: 10
-    - _FoamRange: 1.63
-    - _FoamSpeed: -1
-    - _FoamWidth: 0.19
-    - _FresnelPower: 10
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalScale: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ReflectDistort: 1
-    - _ReflectIntensity: 0.5
-    - _ReflectMipMapLev1: 0
-    - _ReflectMipMapLev2: 0
-    - _ReflectPower: 5
-    - _ShoreEdgeIntensity: 0.2
-    - _ShoreEdgeWidth: 0.2
-    - _ShoreRange: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _UnderWaterDistort: 1
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _CauasticsSpeed: {r: -8, g: 0, b: 0, a: 0}
-    - _CausticsSpeed: {r: -8, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepColor: {r: 0.09803922, g: 0.3882353, b: 0.7254902, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.531}
-    - _FoamNoiseSize: {r: 22.42, g: 48.22, b: 0, a: 0}
-    - _FresnelColor: {r: 0.01176471, g: 0.3411765, b: 0.9843137, a: 1}
-    - _NormalSpeed: {r: -10, g: 0, b: 0, a: 0}
-    - _ShallowColor: {r: 0.1215686, g: 0.7490196, b: 0.7333333, a: 0.4588235}
-    - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WaveASpeedXYSteepnesswavelength: {r: 0, g: -1, b: 1.6, a: 50}
-    - _WaveB: {r: -0.5, g: -0.5, b: 1.6, a: 30}
-    - _WaveC: {r: 1, g: 0.5, b: 1, a: 20}
-    - _WaveColor: {r: 0.013300185, g: 0.45654747, b: 0.60294116, a: 0}
+    - _TriplanOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _TriplanTiling: {r: 1, g: 1, b: 1, a: 0}
