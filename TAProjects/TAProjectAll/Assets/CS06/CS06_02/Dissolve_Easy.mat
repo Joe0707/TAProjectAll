@@ -31,12 +31,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ChangeAmount: 0.44
+    - _ChangeAmount: 1
     - _Cutoff: 0.5
-    - _EdgeWidth: 0.1
+    - _EdgeWidth: 0.14705883
     - _EegeIntensity: 10
     - _MANNULCONTROL: 1
     - _Spread: 1
     - __dirty: 0
     m_Colors:
-    - _EdgeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeColor: {r: 1, g: 0.9870183, b: 0.5294118, a: 0}

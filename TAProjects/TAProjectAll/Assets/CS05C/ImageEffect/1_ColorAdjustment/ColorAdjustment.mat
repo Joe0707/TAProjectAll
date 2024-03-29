@@ -24,10 +24,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Brightness: 1
-    - _Contrast: 1
-    - _HueShift: 0
+    - _Contrast: 1.2
+    - _HueShift: 0.858
     - _Saturation: 1
-    - _VignetteIntensity: 1.51
-    - _VignetteRoundness: 4.13
-    - _VignetteSmoothness: 5
+    - _VignetteIntensity: 1
+    - _VignetteRoundness: 1
+    - _VignetteSmoothness: 0.63
     m_Colors: []
