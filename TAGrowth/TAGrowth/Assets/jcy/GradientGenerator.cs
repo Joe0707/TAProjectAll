@@ -7,7 +7,7 @@ public class GradientGenerator : MonoBehaviour
     void OnValidate()
     {
         //创建一张纹理图
-        tex = new Texture2D(128, 1);
+        tex = new Texture2D(1024, 1);
         tex.wrapMode = TextureWrapMode.Clamp;
         tex.filterMode = FilterMode.Bilinear;
         int count = tex.width * tex.height;//为纹理图声明相对应相除数量的颜色数组

@@ -128,6 +128,7 @@
                 float dotTH = dot(T,H);
                 float sinTH =sqrt(1.0-dotTH*dotTH);
                 float dirAtten = smoothstep(-1.0,0.0,dotTH);
+                return 0;
             }
             half4 frag(v2f i):SV_Target
             {
@@ -176,7 +177,7 @@
                         half3 t = normalize(i.binormalWS);  //取副法线数据
                         // half shift = tex2D(_ShiftMap,i.uv);//W形发丝锯齿效果
                         // t = ShiftTangent(t,n,shift);
-                        specFinal = StrandSpecular(t,h,_SpecPower); //天使环高光衰减系数
+                        // specFinal = StrandSpecular(t,h,_SpecPower); //天使环高光衰减系数
                         }else{
                         specFinal = _SpecIntensity*pow(max(dot(n,h),0),_SpecPower);//光照强度系数
                     }
@@ -197,114 +198,147 @@
             
             ENDHLSL
         }
-        Pass{
-            Name "Outline"
-            Tags{
-                "LightMode" = "Outline"
-            }
-            // Stencil
-            // {
-                //     Ref [_StencilRef]
-                //     Comp NotEqual
-            // }
-            Cull Front
-            HLSLPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
+        // Pass{
+            //     Name "Outline"
+            //     Tags{
+                //         "LightMode" = "Outline"
+            //     }
+            //     // Stencil
+            //     // {
+                //         //     Ref [_StencilRef]
+                //         //     Comp NotEqual
+            //     // }
+            //     Cull Front
+            //     HLSLPROGRAM
+            //     #pragma vertex vert
+            //     #pragma fragment frag
 
-            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
+            //     #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+            //     #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
-            struct appdata
-            {
-                float4 vertex:POSITION;
-                float3 normal:NORMAL;
-                float4 tangent : TANGENT;
-                float2 uv:TEXCOORD0;
-                float4 vertexColor : COLOR;
-            };
+            //     struct appdata
+            //     {
+                //         float4 vertex:POSITION;
+                //         float3 normal:NORMAL;
+                //         float4 tangent : TANGENT;
+                //         float2 uv:TEXCOORD0;
+                //         float4 vertexColor : COLOR;
+            //     };
 
-            struct v2f
-            {
-                float2 uv:TEXCOORD0;
-                float4 pos:SV_POSITION;
-                float4 color : COLOR;
-            };
-            CBUFFER_START(UnityPerMaterial)
-                sampler2D _MainTex;
-                float4 _MainTex_ST;
-                float _OutlineWidth;
-                float4 _OutlineColor;
-                float _PixelWidth;
-                int _UseAvgNormal;
-                sampler2D _RampColorMap;
-                float _UseVertexColor;
-            CBUFFER_END
-            v2f vert(appdata v)
-            {
-                v2f o;
-                //从顶点颜色中读取法线信息，并将其值范围从0~1还原为-1~1
-                float3 vertNormal = v.vertexColor.rgb * 2 - 1;
-                //使用法线与切线叉乘计算副切线用于构建切线→模型空间转换矩阵
-                float3 bitangent = cross(v.normal,v.tangent.xyz) * v.tangent.w * unity_WorldTransformParams.w;
-                //构建切线→模型空间转换矩阵
-                float3x3 TtoO = float3x3(v.tangent.x, bitangent.x, v.normal.x,
-                v.tangent.y, bitangent.y, v.normal.y,
-                v.tangent.z, bitangent.z, v.normal.z);
-                //将法线转换到模型空间下
-                vertNormal = mul(TtoO, vertNormal);
-                float3 normal = _UseAvgNormal==1?vertNormal:v.normal;
-                float3 p1 = mul(unity_ObjectToWorld,v.vertex).xyz;
-                float camDistance = length(_WorldSpaceCameraPos-p1);
-                float camFactor = camDistance*_ProjectionParams.w;
-                float3 width = vertNormal* _OutlineWidth*camFactor*v.vertexColor.a;
+            //     struct v2f
+            //     {
+                //         float2 uv:TEXCOORD0;
+                //         float4 pos:SV_POSITION;
+                //         float4 color : COLOR;
+            //     };
+            //     CBUFFER_START(UnityPerMaterial)
+                //         sampler2D _MainTex;
+                //         float4 _MainTex_ST;
+                //         float _OutlineWidth;
+                //         float4 _OutlineColor;
+                //         float _PixelWidth;
+                //         int _UseAvgNormal;
+                //         sampler2D _RampColorMap;
+                //         float _UseVertexColor;
+            //     CBUFFER_END
+            //     v2f vert(appdata v)
+            //     {
+                //         v2f o;
+                //         //从顶点颜色中读取法线信息，并将其值范围从0~1还原为-1~1
+                //         float3 vertNormal = v.vertexColor.rgb * 2 - 1;
+                //         //使用法线与切线叉乘计算副切线用于构建切线→模型空间转换矩阵
+                //         float3 bitangent = cross(v.normal,v.tangent.xyz) * v.tangent.w * unity_WorldTransformParams.w;
+                //         //构建切线→模型空间转换矩阵
+                //         float3x3 TtoO = float3x3(v.tangent.x, bitangent.x, v.normal.x,
+                //         v.tangent.y, bitangent.y, v.normal.y,
+                //         v.tangent.z, bitangent.z, v.normal.z);
+                //         //将法线转换到模型空间下
+                //         vertNormal = mul(TtoO, vertNormal);
+                //         float3 normal = _UseAvgNormal==1?vertNormal:v.normal;
+                //         float3 p1 = mul(unity_ObjectToWorld,v.vertex).xyz;
+                //         float camDistance = length(_WorldSpaceCameraPos-p1);
+                //         float camFactor = camDistance*_ProjectionParams.w;
+                //         float3 width = vertNormal* _OutlineWidth*camFactor*v.vertexColor.a;
 
-                float3 pos = v.vertex+width;
-                o.pos = TransformObjectToHClip(pos); //clip space
-                o.uv = TRANSFORM_TEX(v.uv,_MainTex);
-                o.color = v.vertexColor;
-                return o;
-            }
+                //         float3 pos = v.vertex+width;
+                //         o.pos = TransformObjectToHClip(pos); //clip space
+                //         o.uv = TRANSFORM_TEX(v.uv,_MainTex);
+                //         o.color = v.vertexColor;
+                //         return o;
+            //     }
             
-            half4 frag(v2f i):SV_Target
-            {
-                half4 rampColor = tex2D(_RampColorMap,i.uv);
-                return _UseVertexColor?i.color:_OutlineColor*rampColor;
-            }
+            //     half4 frag(v2f i):SV_Target
+            //     {
+                //         half4 rampColor = tex2D(_RampColorMap,i.uv);
+                //         return _UseVertexColor?i.color:_OutlineColor*rampColor;
+            //     }
             
-            ENDHLSL
-        }
-        Pass
-        {
-            Name "ShadowCaster"
-            Tags{"LightMode" = "ShadowCaster"}
+            //     ENDHLSL
+        // }
+        // Pass
+        // {
+            //     Name "ShadowCaster"
+            //     Tags{"LightMode" = "ShadowCaster"}
 
-            ZWrite On
-            ZTest LEqual
-            ColorMask 0
+            //     ZWrite On
+            //     ZTest LEqual
+            //     ColorMask 0
 
-            HLSLPROGRAM
-            // Required to compile gles 2.0 with standard srp library
-            #pragma prefer_hlslcc gles
-            #pragma exclude_renderers d3d11_9x
-            #pragma target 2.0
+            //     HLSLPROGRAM
+            //     // Required to compile gles 2.0 with standard srp library
+            //     #pragma prefer_hlslcc gles
+            //     #pragma exclude_renderers d3d11_9x
+            //     #pragma target 2.0
 
-            // -------------------------------------
-            // Material Keywords
-            #pragma shader_feature _ALPHATEST_ON
-            #pragma shader_feature _GLOSSINESS_FROM_BASE_ALPHA
+            //     // -------------------------------------
+            //     // Material Keywords
+            //     #pragma shader_feature _ALPHATEST_ON
+            //     #pragma shader_feature _GLOSSINESS_FROM_BASE_ALPHA
 
-            //--------------------------------------
-            // GPU Instancing
-            #pragma multi_compile_instancing
+            //     //--------------------------------------
+            //     // GPU Instancing
+            //     #pragma multi_compile_instancing
 
-            #pragma vertex ShadowPassVertex
-            #pragma fragment ShadowPassFragment
+            //     #pragma vertex ShadowPassVertex
+            //     #pragma fragment ShadowPassFragment
 
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl"
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl"
-            ENDHLSL
-        }
+            //     #include "Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl"
+            //     #include "Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl"
+            //     ENDHLSL
+        // }
+
+        // Pass
+        // {
+            //     Name "DepthOnly"
+            //     Tags{"LightMode" = "DepthOnly"}
+
+            //     ZWrite On
+            //     ColorMask 0
+            //     Cull[_Cull]
+
+            //     HLSLPROGRAM
+            //     #pragma exclude_renderers gles gles3 glcore
+            //     #pragma target 4.5
+
+            //     #pragma vertex DepthOnlyVertex
+            //     #pragma fragment DepthOnlyFragment
+
+            //     // -------------------------------------
+            //     // Material Keywords
+            //     #pragma shader_feature_local_fragment _ALPHATEST_ON
+            //     #pragma shader_feature_local_fragment _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+
+            //     //--------------------------------------
+            //     // GPU Instancing
+            //     #pragma multi_compile_instancing
+            //     #pragma multi_compile _ DOTS_INSTANCING_ON
+
+            //     #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            //     #include "Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl"
+            //     ENDHLSL
+        // }
+
+
     }
     FallBack "Diffuse"
 }
